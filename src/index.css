@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color : #000;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-content{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.watchtime {
+    font-size: 80px;
+}
+
+.watch-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.watch-buttons button{
+    border: none;
+    /* padding: 10px 30px; */
+    width: 100px;
+    height: 35px;
+    font-size: 1.1rem;
+    border-radius: 0px 10px 0px 10px;
+    color: white;
+    
+}
+.watch-buttons .one{
+    background-color: green;
+}
+.watch-buttons .one:hover{
+    background-color: #40FF40;
+    cursor: pointer;
+}
+.watch-buttons .two{
+    background-color: red;
+}
+.watch-buttons .two:hover{
+    background-color: #FF4040;
+    cursor: pointer;
+}
